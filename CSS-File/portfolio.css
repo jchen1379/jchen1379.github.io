@@ -1,0 +1,45 @@
+.profile{
+	background: url("../Pictures/profile-background2.jpg");
+	background-size: 100% 100%;
+	height: 28vw;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: -10px -10px 0px -10px;
+}
+
+
+#profile-pic-div{
+	position: absolute;
+	top: 8vw;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	board: 10px solid green;
+}
+
+#profile-pic{
+	width: 10vw;
+	border-radius: 50%;
+	border: 0.3vmin solid white;
+}
+
+#name-intro{
+	color: white;
+	background-color: black;
+	font-size: 3.5vmin;
+	font-weight: normal;
+	margin: 3% auto auto auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#current-role{
+	color: white;
+	background-color: black;
+	font-size: 2vmin;
+	font-weight: lighter;
+	margin: 1% auto auto auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
