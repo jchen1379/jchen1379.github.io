@@ -1,1 +1,1 @@
-# https://www.jchen1379.github.io
+# https://jchen1379.github.io
