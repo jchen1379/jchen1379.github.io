@@ -103,23 +103,25 @@
 
 .progress{
 	display: flex;
-	width: 90%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .right-progress, .left-progress{
 	display: block;
-	width: 50%;
+	width: 40%;
 	height: inherit;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .progress-bar{
 	width: 90%;
 	border-radius: 8px;
-	height: 2vw;
-	margin-bottom: 3vw;
-	margin-top: 1vw;
+	height: 2vmin;
+	margin-bottom: 3vmin;
+	margin-top: 1vmin;
 	background-color: #cfd3d3;
 }
 
