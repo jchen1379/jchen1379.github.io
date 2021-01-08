@@ -22,6 +22,7 @@
 	background-color: #cfd3d3;
 	margin-left: auto;
 	margin-right: auto;
+	transition: 1s;
 }
 
 .left-progress span, .right-progress span{
@@ -31,13 +32,13 @@
 .progress-bar div{
 	border-radius: 8px;
 	height: inherit;
-	transition: 3s ease-in-out;
 }
 
 .lang-name{
 	font-size: 2vw;
 	font-weight: bold;
 	font-family: arial;
+	transition: 1s;
 }
 
 
