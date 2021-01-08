@@ -41,3 +41,37 @@
 	margin-top: 6vmin;
 	text-align: center;
 }
+
+.temp{
+	margin-top: 8vmin;
+	display: flex;
+}
+
+.temp div{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#construction{
+	position: relative;
+	background: url("../Pictures/under-construction.png");
+	background-size: cover;
+	background-repeat: none;
+	height: 30vmin;
+	width: 40vmin;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#construction-text{
+	position: relative;
+	width: 40%;
+	flex-wrap: wrap;
+	font-size: 5vmin;
+	font-family: helvetica;
+	font-weight: bold;
+	line-height: 10vw;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
