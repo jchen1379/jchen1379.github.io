@@ -1,7 +1,8 @@
 .profile{
 	background: url("../Pictures/profile-background2.jpg");
 	background-color: black;
-	background-size: 100% 100%;
+	background-size: cover;
+	background-position: center;
 	height: 28vw;
 	display: flex;
 	flex-direction: column;
@@ -12,6 +13,7 @@
 .nav-div{
 	position: absolute;
 	right: 3vw;
+	top: 2vw;
 }
 
 .nav-bar a{
@@ -97,3 +99,111 @@
 		font-size: 3.5vmin;
 	}
 }
+
+
+.progress{
+	display: flex;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.right-progress, .left-progress{
+	display: block;
+	width: 50%;
+	height: inherit;
+}
+
+.progress-bar{
+	width: 90%;
+	border-radius: 8px;
+	height: 2vw;
+	margin-bottom: 3vw;
+	margin-top: 1vw;
+	background-color: #cfd3d3;
+}
+
+.progress-bar div{
+	border-radius: 8px;
+	height: inherit;
+}
+
+.lang-name{
+	font-size: 2vw;
+	font-weight: bold;
+	font-family: arial;
+}
+
+#progress-1{
+	width: 60%;
+	background:
+		repeating-linear-gradient(
+		-40deg, 
+		#5cb85c 0px, 
+		#5cb85c 10px, 
+		#449d44 10px, 
+		#449d44 20px
+		);
+}
+
+#progress-2{
+	width: 90%;
+	background:
+		repeating-linear-gradient(
+		-40deg, 
+		#5bc0de 0px, 
+		#5bc0de 10px, 
+		#31b0d5 10px, 
+		#31b0d5 20px
+		);
+}
+
+#progress-3{
+	width: 70%;
+	background:
+		repeating-linear-gradient(
+		-40deg, 
+		#f0ad4e 0px, 
+		#f0ad4e 10px, 
+		#ec971f 10px, 
+		#ec971f 20px
+		);
+}
+
+#progress-4{
+	width: 50%;
+	background:
+		repeating-linear-gradient(
+		-40deg, 
+		#5cb85c 0px, 
+		#5cb85c 10px, 
+		#449d44 10px, 
+		#449d44 20px
+		);
+}
+
+#progress-5{
+	width: 90%;
+	background:
+		repeating-linear-gradient(
+		-40deg, 
+		#5bc0de 0px, 
+		#5bc0de 10px, 
+		#31b0d5 10px, 
+		#31b0d5 20px
+		);
+}
+
+
+@media (max-width: 1000px){
+	.progress{
+		display: block;
+	}
+	
+	.left-progress, .right-progress{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
