@@ -1,0 +1,143 @@
+.progress{
+	display: flex;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.right-progress, .left-progress{
+	display: block;
+	width: 40%;
+	height: inherit;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.progress-bar{
+	width: 90%;
+	border-radius: 8px;
+	height: 2vmin;
+	margin-bottom: 3vmin;
+	margin-top: 1vmin;
+	background-color: #cfd3d3;
+}
+
+.progress-bar div{
+	border-radius: 8px;
+	height: inherit;
+	transition: 3s ease-in-out;
+}
+
+.lang-name{
+	font-size: 2vw;
+	font-weight: bold;
+	font-family: arial;
+}
+
+
+@keyframes expandWidth1{
+	0%{ width: 0%;}
+	100%{width: 60%;}
+}
+
+#progress-1{
+	width: 60%;
+	background:
+		repeating-linear-gradient(
+		-40deg, 
+		#5cb85c 0px, 
+		#5cb85c 10px, 
+		#449d44 10px, 
+		#449d44 20px
+		);
+	animation: expandWidth1 2s ease;
+}
+
+
+@keyframes expandWidth2{
+	0%{ width: 0%;}
+	100%{width: 90%;}
+}
+
+#progress-2{
+	width: 90%;
+	background:
+		repeating-linear-gradient(
+		-40deg, 
+		#5bc0de 0px, 
+		#5bc0de 10px, 
+		#31b0d5 10px, 
+		#31b0d5 20px
+		);
+	animation: expandWidth2 2s ease;
+}
+
+
+@keyframes expandWidth3{
+	0%{ width: 0%;}
+	100%{width: 70%;}
+}
+
+#progress-3{
+	width: 70%;
+	background:
+		repeating-linear-gradient(
+		-40deg, 
+		#f0ad4e 0px, 
+		#f0ad4e 10px, 
+		#ec971f 10px, 
+		#ec971f 20px
+		);
+	animation: expandWidth3 2s ease;
+}
+
+
+@keyframes expandWidth4{
+	0%{ width: 0%;}
+	100%{width: 50%;}
+}
+
+#progress-4{
+	width: 50%;
+	background:
+		repeating-linear-gradient(
+		-40deg, 
+		#5cb85c 0px, 
+		#5cb85c 10px, 
+		#449d44 10px, 
+		#449d44 20px
+		);
+	animation: expandWidth4 2s ease;
+}
+
+
+@keyframes expandWidth5{
+	0%{ width: 0%;}
+	100%{width: 90%;}
+}
+
+#progress-5{
+	width: 90%;
+	background:
+		repeating-linear-gradient(
+		-40deg, 
+		#5bc0de 0px, 
+		#5bc0de 10px, 
+		#31b0d5 10px, 
+		#31b0d5 20px
+		);
+	animation: expandWidth5 2s ease;
+}
+
+
+@media (max-width: 1000px){
+	.progress{
+		display: block;
+	}
+	
+	.left-progress, .right-progress{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
