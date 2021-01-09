@@ -47,6 +47,8 @@
 }
 
 .btn {
+	display: block;
+	margin: auto auto;
 	margin-top: 30%;
 	height: 3vmin;
 	width: 40%;
