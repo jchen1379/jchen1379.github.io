@@ -21,16 +21,3 @@
 	font-size: 2vmin;
 	line-height: 2vmin;
 }
-
-/* navigation */
-.navigation ul{
-	list-style-type: none;
-	display: flex;
-	justify-content: center;
-	font-size: 1.5vmin;
-}
-
-.navigation li{
-	margin-left: 2vmin;
-	margin-right: 2vmin;
-}
