@@ -17,6 +17,7 @@
 .contact-us img{
 	height: 5vmin;
 	margin-left: 5vmin;
+	width: 5vmin;
 }
 
 .contact-us span{
@@ -24,6 +25,10 @@
 	margin-bottom: auto;
 	margin-left: 3vmin;
 	font-size: 2vmin;
+}
+
+.contact-us a{
+	color: darkslategray;
 }
 
 .contact-us h2{
@@ -82,8 +87,6 @@
 	margin-right: 1%;
 	border: 1px solid lightgray;
 	font-size: 2vmin;
-	font-family: arial;
-	resize: none;
 }
 
 #submit{
