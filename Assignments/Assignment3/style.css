@@ -31,7 +31,7 @@
 
 .pa,
 .pa-div a {
-	font-size: 3vmin;
+	font-size: 2vmin;
 }
 
 .title {
@@ -51,7 +51,7 @@
 	display: block;
 	margin: auto auto;
 	margin-top: 30%;
-	height: 3vmin;
+	height: 4vmin;
 	width: 40%;
 	border-radius: 12px;
 	background-color: aqua;
