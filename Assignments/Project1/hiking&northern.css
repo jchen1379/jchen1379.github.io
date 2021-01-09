@@ -1,0 +1,25 @@
+.imgs{
+	height: 40vmin;
+	display: flex;
+}
+
+.imgs img{
+	height: 35vmin;
+	width: 32%;
+	margin: auto;
+	border: 3px solid black;
+}
+
+
+/* navigation */
+.navigation ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	font-size: 1.5vmin;
+}
+
+.navigation li{
+	margin-left: 2vmin;
+	margin-right: 2vmin;
+}
