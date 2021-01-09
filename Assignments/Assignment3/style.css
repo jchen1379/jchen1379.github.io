@@ -9,6 +9,7 @@
 
 .img1, .img2 {
 	width: 30%;
+	height: 100%;
 	margin: 1% auto 1% auto;
 	border: 1px solid blue;
 	border-radius: 12px;
@@ -21,6 +22,7 @@
 
 .pa-div {
 	width: 30%;
+	height: 100%;
 	margin: 1% auto 1% auto;
 	text-align: center;
 	border: 1px solid red;
