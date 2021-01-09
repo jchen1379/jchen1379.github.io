@@ -83,6 +83,7 @@
 	border: 1px solid lightgray;
 	font-size: 2vmin;
 	font-family: arial;
+	resize: none;
 }
 
 #submit{
