@@ -1,12 +1,12 @@
 .background-pictures1{
-	background-image: url("../Pictures/project-page-pic1.jpg");
+	background: url("../Pictures/project-page-pic1.jpg");
 }
 
 .background-pictures2{
-	background-image: url("../Pictures/project-page-pic2.jpg");
+	background: url("../Pictures/project-page-pic2.jpg");
 }
 
 .background-pictures3{
-	background-image: url("../Pictures/project-page-pic3.jpg");
+	background: url("../Pictures/project-page-pic3.jpg");
 }
 
