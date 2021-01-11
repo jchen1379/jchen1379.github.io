@@ -1,11 +1,11 @@
 .nav-div{
+	position: sticky;
 	overflow: hidden;
-	position: fixed;
 	width: 100%;
 	top: 0;
-	left: 0;
-	background-color: #000000;
-	height: 5vmin;
+	background: #000000;
+	height: 5vh;
+	z-index: 1;
 }
 
 .nav-bar{
@@ -38,40 +38,43 @@
 }
 
 .temp{
-	margin-top: 6vmin;
-	text-align: center;
-}
-
-.temp{
-	margin-top: 8vmin;
 	display: flex;
+	background-color: black;
+	height: 20vmin;
 }
 
-.temp div{
-	margin-left: auto;
-	margin-right: auto;
+.temp div, p{
+	margin: auto;
 }
 
 #construction{
 	position: relative;
 	background: url("../Pictures/under-construction.png");
-	background-size: cover;
-	background-repeat: none;
-	height: 30vmin;
-	width: 40vmin;
-	margin-top: auto;
-	margin-bottom: auto;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	width: 15vmin;
+	height: 15vmin;
 }
 
 #construction-text{
 	position: relative;
-	width: 40%;
+	width: 45%;
 	flex-wrap: wrap;
-	font-size: 5vmin;
+	font-size: auto;
 	font-family: helvetica;
 	font-weight: bold;
-	line-height: 10vw;
+	color: white;
+	line-height: 5vmin;
+	font-size: 4.5vmin;
+}
+
+.footer{
+	color: white;
 	text-align: center;
-	margin-top: auto;
-	margin-bottom: auto;
+	height: 3vmin;
+	line-height: 3vmin;
+	font-size: 1.5vmin;
+	font-family: helvetica;
+	background-color: #000000;
 }

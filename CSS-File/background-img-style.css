@@ -1,0 +1,12 @@
+.background-div{
+	position: relative;
+	height: 89vh;
+	width: 100%;
+}
+
+.background-div div{
+	height: inherit;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}

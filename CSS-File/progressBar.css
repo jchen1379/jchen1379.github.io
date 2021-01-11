@@ -57,7 +57,7 @@
 		#449d44 10px, 
 		#449d44 20px
 		);
-	animation: expandWidth1 2s ease;
+	animation: expandWidth1 2s ease 1;
 }
 
 
@@ -108,7 +108,7 @@
 	width: 50%;
 	background:
 		repeating-linear-gradient(
-		-40deg, 
+		-40deg,
 		#5cb85c 0px, 
 		#5cb85c 10px, 
 		#449d44 10px, 
