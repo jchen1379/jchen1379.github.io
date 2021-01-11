@@ -1,8 +1,9 @@
 .background-div{
-	position: sticky;
 	height: 89vh;
 	width: 100%;
-	z-index: -10;
+	position: sticky;
+	z-index: -1;
+	top: 0;
 }
 
 .background-div div{
