@@ -1,5 +1,5 @@
 .background-div{
-	height: 49vh;
+	height: 89vh;
 	width: 100%;
 	position: sticky;
 	z-index: -1;
@@ -9,7 +9,13 @@
 .background-div div{
 	height: inherit;
 	background-position: center;
-/* 	background-attachment: fixed; */
+	background-attachment: fixed;
 	background-color: #000000;
 	background-size: cover;
+}
+
+@media (max-width: 800px){
+	.background-div div{
+		background-attachment: initial;
+	}
 }
