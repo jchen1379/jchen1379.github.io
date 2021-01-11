@@ -16,3 +16,15 @@
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+.background-pictures1{
+	z-index: -4;
+}
+
+.background-pictures2{
+	z-index: -3;
+}
+
+.background-pictures3{
+	z-index: -2;
+}
