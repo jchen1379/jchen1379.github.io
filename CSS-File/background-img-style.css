@@ -8,6 +8,7 @@
 	height: inherit;
 	background-position: center;
 	background-attachment: fixed;
+	background-color: #000000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
