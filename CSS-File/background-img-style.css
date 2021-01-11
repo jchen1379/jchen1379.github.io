@@ -1,5 +1,5 @@
 .background-div{
-	height: 89vh;
+	height: 49vh;
 	width: 100%;
 	position: sticky;
 	z-index: -1;
@@ -11,20 +11,5 @@
 	background-position: center;
 	background-attachment: fixed;
 	background-color: #000000;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
-}
-
-.background-pictures1{
-	z-index: -4;
-}
-
-.background-pictures2{
-	z-index: -3;
-}
-
-.background-pictures3{
-	z-index: -2;
 }
