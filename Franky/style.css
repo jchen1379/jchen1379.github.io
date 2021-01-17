@@ -234,7 +234,7 @@ a:hover {
 	color: #222222;
 }
 
-.self-intro p {
+.self-intro p, .self-intro a {
 	font-size: 15px;
 	font-family: helvetica, sans-serif;
 	font-weight: lighter;
