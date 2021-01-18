@@ -6,8 +6,8 @@ body {
 
 @media (max-width: 750px) {
 	body {
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
 
@@ -119,6 +119,10 @@ a:hover {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	background-color: #DDDDDD;
+}
+
+.active{
+	color: #111111;
 }
 
 @media (max-width: 750px) {
@@ -264,6 +268,135 @@ a:hover {
 		margin-top: 30px;
 	}
 }
+
+
+
+
+
+/* project display window */
+.project-display-window{
+	display: none;
+	margin-top: 100px;
+}
+
+.project-display-window:target{
+	display: block;
+}
+
+.project-display-title{
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 30px;
+	font-family: futura;
+	font-weight: bold;
+	color: #222222;
+}
+
+.project-display-description{
+	margin-top: 30px;
+	font-size: 15px;
+	line-height: 1.8em;
+	font-family: helvetica, sans-serif;
+	font-weight: lighter;
+	color: #575757;
+}
+
+.project-display-side-description{
+	margin-top: 50px;
+	width: 250px;
+	float: right;
+	margin-left: 34px;
+	margin-right: 12px;
+}
+
+.project-display-side-description div{
+	font-size: 24px;
+	line-height: 1.8em;
+	font-family: helvetica, sans-serif;
+	font-weight: lighter;
+	color: #575757;
+}
+
+.project-display-note{
+	margin-top: 30px;
+	font-size: 15px;
+	line-height: 1.8em;
+	font-family: helvetica, sans-serif;
+	font-weight: bolder;
+	color: #575757;
+}
+
+.project-display-picture{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.project-picture-fullsize{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.project-picture-2-2{
+	width: 48%;
+	margin-top: 50px;
+}
+
+.project-picture-3-3{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.poster-picture-container{
+	max-width: 900px;
+	display: block;
+	margin-right: 300px;
+}
+
+
+@media (max-width: 750px){
+	.project-picture-2-2{
+		width: 100%;
+	}
+	
+	.project-picture-3-3{
+		width: 100%;
+	}
+	
+	.project-display-side-description{
+		width: 100%;
+		float: none;
+		margin-left: 0;
+	}
+	
+	.poster-picture-container{
+		width: 100%;
+	}
+}
+
+.project-display-navbar{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+.project-display-navlink{
+	font-size: 15px;
+	font-family: helvetica, sans-serif;
+	color: #111111;
+}
+
+.project-display-navlink-disabled{
+	color: #999999;
+	pointer-events: none;
+}
+
+
+
+
+
+
+
 
 
 
