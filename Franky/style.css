@@ -360,6 +360,12 @@ a:hover {
 
 
 @media (max-width: 750px){
+	.project-display-picture{
+		display: initial;
+		flex-wrap: unset;
+		justify-content: unset;
+	}
+	
 	.project-picture-2-2{
 		width: 100%;
 	}
