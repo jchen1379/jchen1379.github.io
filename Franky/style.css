@@ -331,7 +331,8 @@ a:hover {
 	color: #575757;
 }
 
-.project-display-picture{
+.project-display-wrapper{
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -347,6 +348,14 @@ a:hover {
 	margin-top: 50px;
 }
 
+.project-picture-container {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
 .project-picture-3-3{
 	width: 100%;
 	margin-top: 50px;
@@ -360,17 +369,13 @@ a:hover {
 
 
 @media (max-width: 750px){
-	.project-display-picture{
+	.project-display-wrapper{
 		display: initial;
 		flex-wrap: unset;
 		justify-content: unset;
 	}
 	
 	.project-picture-2-2{
-		width: 100%;
-	}
-	
-	.project-picture-3-3{
 		width: 100%;
 	}
 	
