@@ -331,6 +331,25 @@ a:hover {
 	color: #575757;
 }
 
+.project-display-subtitle-left{
+	margin-top: 100px;
+	font-size: 30px;
+	font-family: helvetica;
+	font-weight: lighter;
+	color: #222222;
+	letter-spacing: 2px;
+}
+
+.project-display-subtitle-center{
+	margin-top: 100px;
+	font-size: 30px;
+	font-family: helvetica;
+	font-weight: lighter;
+	color: #222222;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
 .project-display-wrapper{
 	width: 100%;
 	display: flex;
@@ -348,6 +367,38 @@ a:hover {
 	margin-top: 50px;
 }
 
+.project-picture-3-3{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.project-picture-3-2{
+	width: 64%;
+	margin-top: 50px;
+}
+
+.project-picture-1-2{
+	width: 34%;
+	margin-top: 50px;
+}
+
+.project-picture-2-2-subtitle{
+	margin-top: 20px;
+	width: 48%;
+	font-size: 12px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: #575757;
+}
+
+.project-subtitle-wrapper{
+	width: 48%;
+}
+
+.project-subtitle-wrapper img{
+	width: 100%;
+}
+
 .project-picture-container {
 	position: relative;
 	width: 100%;
@@ -356,17 +407,11 @@ a:hover {
 	justify-content: center;
 }
 
-.project-picture-3-3{
-	width: 100%;
-	margin-top: 50px;
-}
-
 .poster-picture-container{
 	max-width: 900px;
 	display: block;
 	margin-right: 300px;
 }
-
 
 @media (max-width: 750px){
 	.project-display-wrapper{
@@ -375,7 +420,23 @@ a:hover {
 		justify-content: unset;
 	}
 	
+	.project-subtitle-wrapper{
+		width: 100%;
+	}
+	
 	.project-picture-2-2{
+		width: 100%;
+	}
+	
+	.project-picture-3-2{
+		width: 100%;
+	}
+	
+	.project-picture-1-2{
+		width: 100%;
+	}
+	
+	.project-picture-2-2-subtitle{
 		width: 100%;
 	}
 	
