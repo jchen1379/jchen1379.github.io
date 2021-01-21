@@ -1,3 +1,4 @@
+/* --------------------------------------------------------------- */
 body {
 	padding-left: 60px;
 	padding-right: 60px;
@@ -23,8 +24,17 @@ a:hover {
 	text-decoration: none !important;
 	color: #111111 !important;
 }
+/* --------------------------------------------------------------- */
 
 
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* middle main content display area */
 .content-display-area {
 	max-width: 1200px;
@@ -32,12 +42,17 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 }
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
 
 
 
 
+
+
+
+/* --------------------------------------------------------------- */
 /* header part */
 .header {
 	width: 100%;
@@ -144,11 +159,17 @@ a:hover {
 		margin: auto;
 	}
 }
+/* --------------------------------------------------------------- */
 
 
 
 
 
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* portfolio thumbnail section */
 .project-thumbnail {
 	width: 100%;
@@ -170,14 +191,11 @@ a:hover {
 @media (max-width: 750px) {
 	.project {
 		width: 48%;
+		margin-top: 25px;
 	}
 
 	.project-thumbnail {
 		margin-top: 50px;
-	}
-
-	.project {
-		margin-top: 25px;
 	}
 }
 
@@ -197,7 +215,6 @@ a:hover {
 }
 
 .project-cover img {
-	max-height: 376px;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -214,10 +231,283 @@ a:hover {
 	color: #404040;
 	margin-top: 15px;
 }
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
 
 
+
+
+
+
+/* --------------------------------------------------------------- */
+/* project display window */
+.project-display-window{
+	display: none;
+	margin-top: 100px;
+}
+
+.project-display-window:target{
+	display: block;
+}
+
+.project-display-title{
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 30px;
+	font-family: futura;
+	font-weight: bold;
+	color: #222222;
+}
+
+.project-display-description{
+	margin-top: 30px;
+	font-size: 15px;
+	line-height: 1.8em;
+	font-family: helvetica, sans-serif;
+	font-weight: lighter;
+	color: #575757;
+}
+
+.project-display-info-right{
+	margin-top: 50px;
+	width: 250px;
+	float: right;
+	margin-left: 34px;
+	margin-right: 12px;
+}
+
+.project-display-title-right{
+	font-size: 24px;
+	line-height: 1.8em;
+	font-family: helvetica, sans-serif;
+	font-weight: lighter;
+	color: #575757;
+}
+
+/* So far, only been used for the project won the competition */
+.project-display-note{
+	margin-top: 30px;
+	font-size: 15px;
+	line-height: 1.8em;
+	font-family: helvetica, sans-serif;
+	font-weight: bolder;
+	color: #575757;
+}
+
+.project-display-subtitle-left{
+	margin-top: 100px;
+	font-size: 30px;
+	font-family: helvetica;
+	font-weight: lighter;
+	color: #222222;
+	letter-spacing: 2px;
+}
+
+.project-display-subtitle-center{
+	margin-top: 100px;
+	font-size: 30px;
+	font-family: helvetica;
+	font-weight: lighter;
+	color: #222222;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.picture-container {
+	width: 48%;
+	margin-top: 36px;
+}
+
+.project-display-picture{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+.project-display-picture img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+/* to keep 1:1 ratio */
+.ratio-1-1:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+.margin-offset-1-1{
+	margin-top: -100%;
+}
+
+/* to keep 16:9 ratio */
+.ratio-16-9:before {
+	content: "";
+	display: block;
+	padding-top: 56.25%;
+}
+
+.margin-offset-16-9{
+	margin-top: -56.25%;
+}
+
+
+/* to keep 4:3 ratio */
+.ratio-4-3:before {
+	content: "";
+	display: block;
+	padding-top: 80%;
+}
+
+.margin-offset-4-3{
+	margin-top: -80%;
+}
+
+
+/* to keep 4:3 ratio */
+.ratio-3-4:before {
+	content: "";
+	display: block;
+	padding-top: 133.33%;
+}
+
+.margin-offset-3-4{
+	margin-top: -133.33%;
+}
+
+/* to keep 9:16 ratio */
+.ratio-9-16:before {
+	content: "";
+	display: block;
+	padding-top: 177.77%;
+}
+
+.margin-offset-9-16{
+	margin-top: -177.77%;
+}
+
+
+/* So far, only been used in Nike one */
+.width-3-of-4{
+	width: 73.29%;
+}
+
+.width-1-of-4{
+	width: 22.71%;
+}
+
+
+/* for pictures have fullsize  */
+.project-picture-fullsize{
+	width: 100%;
+	margin-top: 36px;
+}
+
+.picture-container img{
+	width: 100%;
+}
+
+
+/* for pictures align left, description align right */
+/* eg. DVD, Poster */
+.poster-picture-container{
+	display: block;
+	max-width: 900px;
+	margin-right: 300px;
+}
+
+
+/* for the title underneath a picture */
+/* eg. Maroon 5 Can */
+.project-picture-subtitle{
+	margin-top: 20px;
+	font-size: 12px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: #575757;
+}
+
+
+
+/* compatibility */
+@media (max-width: 750px){
+	.project-picture-subtitle{
+		width: 100%;
+	}
+	
+	.project-display-info-right{
+		width: 100%;
+		float: none;
+		margin-left: 0;
+	}
+	
+	.poster-picture-container{
+		width: 100%;
+	}
+	
+	.picture-container{
+		width: 100%;
+	}
+	
+	.picture-subtitle-container{
+		width: 100%;
+	}
+	
+	.width-3-of-4{
+		width: 100%;
+	}
+	
+	.width-1-of-4{
+		width: 100%;
+	}
+}
+/* --------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* navbar within the modal window for displaying the project pictures */
+.project-display-navbar{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+.project-display-navlink{
+	font-size: 15px;
+	font-family: helvetica, sans-serif;
+	color: #111111;
+}
+
+.project-display-navlink-disabled{
+	color: #999999;
+	pointer-events: none;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------- */
 /* about page */
 .my-picture {
 	width: 57%;
@@ -273,200 +563,7 @@ a:hover {
 		margin-top: 30px;
 	}
 }
-
-
-
-
-
-/* project display window */
-.project-display-window{
-	display: none;
-	margin-top: 100px;
-}
-
-.project-display-window:target{
-	display: block;
-}
-
-.project-display-title{
-	text-align: center;
-	margin-bottom: 15px;
-	font-size: 30px;
-	font-family: futura;
-	font-weight: bold;
-	color: #222222;
-}
-
-.project-display-description{
-	margin-top: 30px;
-	font-size: 15px;
-	line-height: 1.8em;
-	font-family: helvetica, sans-serif;
-	font-weight: lighter;
-	color: #575757;
-}
-
-.project-display-side-description{
-	margin-top: 50px;
-	width: 250px;
-	float: right;
-	margin-left: 34px;
-	margin-right: 12px;
-}
-
-.project-display-side-description div{
-	font-size: 24px;
-	line-height: 1.8em;
-	font-family: helvetica, sans-serif;
-	font-weight: lighter;
-	color: #575757;
-}
-
-.project-display-note{
-	margin-top: 30px;
-	font-size: 15px;
-	line-height: 1.8em;
-	font-family: helvetica, sans-serif;
-	font-weight: bolder;
-	color: #575757;
-}
-
-.project-display-subtitle-left{
-	margin-top: 100px;
-	font-size: 30px;
-	font-family: helvetica;
-	font-weight: lighter;
-	color: #222222;
-	letter-spacing: 2px;
-}
-
-.project-display-subtitle-center{
-	margin-top: 100px;
-	font-size: 30px;
-	font-family: helvetica;
-	font-weight: lighter;
-	color: #222222;
-	letter-spacing: 2px;
-	text-align: center;
-}
-
-.project-display-wrapper{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.project-picture-fullsize{
-	width: 100%;
-	margin-top: 50px;
-}
-
-.project-picture-2-2{
-	width: 48%;
-	margin-top: 50px;
-}
-
-.project-picture-3-3{
-	width: 100%;
-	margin-top: 50px;
-}
-
-.project-picture-3-2{
-	width: 64%;
-	margin-top: 50px;
-}
-
-.project-picture-1-2{
-	width: 34%;
-	margin-top: 50px;
-}
-
-.project-picture-2-2-subtitle{
-	margin-top: 20px;
-	width: 48%;
-	font-size: 12px;
-	font-family: helvetica;
-	font-weight: bold;
-	color: #575757;
-}
-
-.project-subtitle-wrapper{
-	width: 48%;
-}
-
-.project-subtitle-wrapper img{
-	width: 100%;
-}
-
-.project-picture-container {
-	position: relative;
-	width: 100%;
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
-}
-
-.poster-picture-container{
-	max-width: 900px;
-	display: block;
-	margin-right: 300px;
-}
-
-@media (max-width: 750px){
-	.project-display-wrapper{
-		display: initial;
-		flex-wrap: unset;
-		justify-content: unset;
-	}
-	
-	.project-subtitle-wrapper{
-		width: 100%;
-	}
-	
-	.project-picture-2-2{
-		width: 100%;
-	}
-	
-	.project-picture-3-2{
-		width: 100%;
-	}
-	
-	.project-picture-1-2{
-		width: 100%;
-	}
-	
-	.project-picture-2-2-subtitle{
-		width: 100%;
-	}
-	
-	.project-display-side-description{
-		width: 100%;
-		float: none;
-		margin-left: 0;
-	}
-	
-	.poster-picture-container{
-		width: 100%;
-	}
-}
-
-.project-display-navbar{
-	display: flex;
-	justify-content: space-between;
-	margin-top: 100px;
-}
-
-.project-display-navlink{
-	font-size: 15px;
-	font-family: helvetica, sans-serif;
-	color: #111111;
-}
-
-.project-display-navlink-disabled{
-	color: #999999;
-	pointer-events: none;
-}
+/* --------------------------------------------------------------- */
 
 
 
@@ -476,8 +573,7 @@ a:hover {
 
 
 
-
-
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* footer */
 .footer {
 	width: 50%;
@@ -487,3 +583,4 @@ a:hover {
 	font-family: helvetica, sans-serif;
 	line-height: 1.8em;
 }
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
