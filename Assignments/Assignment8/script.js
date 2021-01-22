@@ -71,11 +71,13 @@ if (netsAvg < 100 && knicksAvg < 100) {
 console.log("\n-----------------------------------\n\n");
 let bill = 275;
 let tip;
-if (bill >= 30 && bill <= 300) {
-    tip = bill * 0.15;
-}
-if (bill < 30 || bill > 300) {
-    tip = bill * 0.20;
+switch (bill >= 30 && bill <= 300) {
+    case true:
+        tip = bill * 0.15;
+        break;
+    case false:
+        tip = bill * 0.20;
+        break;
 }
 
 let total = bill + tip;
@@ -83,22 +85,26 @@ console.log("The bill was " + bill.toFixed(2) + ", the tip was " + tip.toFixed(2
 
 
 bill = 28;
-if (bill >= 30 && bill <= 300) {
-    tip = bill * 0.15;
-}
-if (bill < 30 || bill > 300) {
-    tip = bill * 0.20;
+switch (bill >= 30 && bill <= 300) {
+    case true:
+        tip = bill * 0.15;
+        break;
+    case false:
+        tip = bill * 0.20;
+        break;
 }
 total = bill + tip;
 console.log("The bill was " + bill.toFixed(2) + ", the tip was " + tip.toFixed(2) + ", and the total value is " + total.toFixed(2));
 
 
 bill = 430;
-if (bill >= 30 && bill <= 300) {
-    tip = bill * 0.15;
-}
-if (bill < 30 || bill > 300) {
-    tip = bill * 0.20;
+switch (bill >= 30 && bill <= 300) {
+    case true:
+        tip = bill * 0.15;
+        break;
+    case false:
+        tip = bill * 0.20;
+        break;
 }
 total = bill + tip;
 console.log("The bill was " + bill.toFixed(2) + ", the tip was " + tip.toFixed(2) + ", and the total value is " + total.toFixed(2));
