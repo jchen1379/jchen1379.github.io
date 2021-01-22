@@ -120,7 +120,7 @@ function fahrenheitToCelsius(fahrenheit) {
 }
 
 let celsius = 30;
-console.log(celsius + "\u00B0C is " + celsiusToFahrenheit(celsius) + "\u00B0F");=
+console.log(celsius + "\u00B0C is " + celsiusToFahrenheit(celsius) + "\u00B0F");
 
 let fahrenheit = 80;
 console.log(fahrenheit + "\u00B0F is " + fahrenheitToCelsius(fahrenheit) + "\u00B0C");
