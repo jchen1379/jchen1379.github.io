@@ -157,9 +157,14 @@
 	margin-left: 1vmin;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
 	.buttom-display-area{
 		flex-direction: column;
+	}
+	
+	.score-display-area,
+	.number-input-area {
+	    width: 50vmin;
 	}
 	
 	.score-display-area img{
