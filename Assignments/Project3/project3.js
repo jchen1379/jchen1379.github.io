@@ -23,7 +23,7 @@ let correctBackground = "linear-gradient(45deg, #0f3443, #34e89e)",
 
 // check the answer
 function checkAns() {
-	let value = document.getElementById("numberInput").value;
+	let value = parseInt(document.getElementById("numberInput").value, 10);
 	if (value == '') {
 		showHint(noNumberIcon, noNumberMsg);
 	} else if (historyArr.indexOf(value) != -1) {
