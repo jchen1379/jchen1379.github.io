@@ -1,0 +1,84 @@
+.container{
+	background: linear-gradient(to bottom left, #69A6FF, #A0FFC0);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: flex;
+}
+
+.three-btns{
+	margin: auto;
+	display: flex;
+	width: 60vmin;
+	justify-content: space-between;
+}
+
+.three-btns button{
+	height: 6vmin;
+	width: 14vmin;
+	border-radius: 20px;
+	border: none;
+	font-size: 2.5vmin;
+	font-weight: bold;
+	line-height: 6vmin;
+	cursor: pointer;
+}
+
+@media (max-width: 750px){
+	.three-btns{
+		flex-direction: column;
+	}
+	
+	.three-btns button{
+		margin: 5vmin auto 5vmin auto;
+		height: 10vmin;
+		width: 20vmin;
+		font-size: 4vmin;
+		line-height: 10vmin;
+	}
+}
+
+.modal-window{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: none;
+}
+
+.msg-block{
+	margin: auto;
+	height: 30vmin;
+	width: 80vmin;
+	background-color: white;
+	box-shadow: 0px 0px 30px black;
+	display: flex;
+}
+
+.msg-block a{
+	position: relative;
+	left: 96%;
+	top: 4%;
+	text-decoration: none;
+	font-family: arial;
+	font-weight: bolder;
+	color: black;
+	cursor: pointer;
+}
+
+.msg{
+	margin: auto;
+	width: 80%;
+}
+
+.msg h1{
+	font-size: 3vmin;
+}
+
+.msg p{
+	font-size: 1.5vmin;
+}
