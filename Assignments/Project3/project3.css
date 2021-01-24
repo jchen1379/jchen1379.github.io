@@ -196,7 +196,15 @@
 	}
 	
 	.number-input-slide{
-		width: 36vmin;
+		width: 50vmin;
+		height: 2vmin;
+		margin-top: 6vmin;
+		margin-bottom: 3vmin;
+	}
+	
+	.number-input-slide::-webkit-slider-thumb{
+		height: 3.5vmin;
+		width: 3.5vmin;
 	}
 	
 	.score-display-area img{
@@ -211,7 +219,7 @@
 	}
 	
 	.number-input{
-		height: 16vmin;
+		height: 10vmin;
 		width: 36vmin;
 		margin-top: 5vmin;
 	}
