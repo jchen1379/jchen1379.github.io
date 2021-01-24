@@ -115,6 +115,30 @@
     color: white;
 }
 
+.number-input::-webkit-inner-spin-button,
+.number-input::-webkit-outer-spin-button{
+	-webkit-appearance: none;
+}
+
+.number-input-slide{
+	-webkit-appearance: none;
+	width: 22vmin;
+	height: 1vmin;
+	border-radius: 5px;
+	outline: none;
+	margin-top: 3vmin;
+}
+
+.number-input-slide::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	appearance: none;
+	width: 1.5vmin;
+	height: 1.5vmin;
+	border-radius: 50%;
+	background: #000000;
+	cursor: pointer;
+}
+
 .btn {
     margin-top: 3vmin;
     height: 6vmin;
@@ -129,6 +153,7 @@
     border: 2px solid yellow;
     border-radius: 8px;
     cursor: pointer;
+	outline: none;
 }
 
 .guessing-history{
@@ -142,7 +167,6 @@
 	font-family: 'Comfortaa', helvetica;
 	line-height: 3vmin;
 	color: white;
-	
 }
 
 .history{
@@ -165,6 +189,14 @@
 	.score-display-area,
 	.number-input-area {
 	    width: 50vmin;
+	}
+	
+	.number-input-area{
+		height: 40vmin;
+	}
+	
+	.number-input-slide{
+		width: 36vmin;
 	}
 	
 	.score-display-area img{

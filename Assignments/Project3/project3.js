@@ -150,3 +150,16 @@ function startOver() {
 	// reset the background color
 	document.getElementById("bigContainer").style.background = initialBackground;
 }
+
+
+function updateOutput(){
+	var slider = document.getElementById("numberInputSlide")
+	var output = document.getElementById("numberInput");
+	output.value = slider.value;
+}
+
+function updateSlide(){
+	var slider = document.getElementById("numberInputSlide")
+	var output = document.getElementById("numberInput");
+	slider.value = output.value;
+}
