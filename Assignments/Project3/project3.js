@@ -23,14 +23,17 @@ let correctBackground = "linear-gradient(45deg, #0f3443, #34e89e)",
 
 // check the answer
 function checkAns() {
-	let value = parseInt(document.getElementById("numberInput").value, 10);
+	let value = document.getElementById("numberInput").value;
 	if (value == '') {
 		showHint(noNumberIcon, noNumberMsg);
-	} else if (historyArr.indexOf(value) != -1) {
-		showHint(duplicatedIcon, duplicatedMsg);
 	} else {
-		historyArr.push(value);
-		value == answer ? correct() : giveHint(value);
+		value = parseInt(value, 10);
+		if (historyArr.indexOf(value) != -1) {
+			showHint(duplicatedIcon, duplicatedMsg);
+		} else {
+			historyArr.push(value);
+			value == answer ? correct() : giveHint(value);
+		}
 	}
 }
 

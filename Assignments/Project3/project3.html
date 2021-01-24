@@ -42,8 +42,8 @@
 				</div>
 
 				<div class="number-input-area">
-					<input class="number-input" id="numberInput" type="number" onkeyup="checkNumRange(this.value), updateSlide()" autofocus>
-					<input class="number-input-slide" id="numberInputSlide" value="50" type="range" min="1" max="100" onmousemove="updateOutput()"/>
+					<input class="number-input" id="numberInput" type="number" oninput="checkNumRange(this.value), updateSlide()" autofocus>
+					<input class="number-input-slide" id="numberInputSlide" type="range" min="1" max="100" oninput="updateOutput()"/>
 					<input class="btn" id="checkBtn" type="submit" value="Check!" onclick="checkAns()"></input>
 				</div>
 				
