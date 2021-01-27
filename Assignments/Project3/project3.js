@@ -94,7 +94,8 @@ function gameOver() {
 // disable the input field
 function stopTheGame() {
 	// update the high score
-	document.getElementById("highscore").innerText = Math.max(score, highScore);
+	highScore = Math.max(score, highScore);
+	document.getElementById("highscore").innerText = highScore;
 
 	// when user gets the correct answer, disable the check button
 	let checkBtn = document.getElementById("checkBtn");
