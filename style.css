@@ -54,6 +54,7 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	border: 1px solid red;
 }
 
 @media (max-width: 1200px) {
@@ -80,13 +81,28 @@
 	font-size: 10vw;
 	font-family: futura;
 	font-weight: bolder;
-	background-image: url(Pictures/about-page-pic3.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position-x: center;
 	-webkit-background-clip: text;
 	color: transparent;
 	margin-top: 8vmin;
+}
+
+.background-1{
+	background-image: url(Pictures/about-page-pic2.jpg);
+}
+
+.background-2{
+	background-image: url(Pictures/about-page-pic4.jpg);
+}
+
+.background-3{
+	background-image: url(Pictures/about-page-pic3.jpg);
+}
+
+.background-4{
+	background-image: url(Pictures/project-page-pic1.jpg);
 }
 
 .decription {
