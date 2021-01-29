@@ -54,7 +54,6 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	border: 1px solid red;
 }
 
 @media (max-width: 1200px) {
@@ -262,4 +261,14 @@
 	color: #FFFFFF;
 	transition: 1s;
 	text-decoration: none;
+}
+
+
+
+/* footer */
+.footer{
+	font-size: 20px;
+	font-family: helvetica;
+	text-align: center;
+	margin-bottom: 10px;
 }
