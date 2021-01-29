@@ -1,16 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
 	scroll-behavior: smooth;
 }
 
-.wrapper{
-	margin-top: 80px;
-}
-
-.navbar{
+/* top fixed navigation bar */
+.navbar {
 	width: 100%;
 	height: 80px;
 	display: flex;
@@ -21,7 +18,7 @@
 	background-color: white;
 }
 
-.navbar a{
+.navbar a {
 	display: inline-block;
 	text-decoration: none;
 	color: #545454;
@@ -34,47 +31,52 @@
 	margin-right: 20px;
 }
 
-.name-brand{
+.name-brand {
 	font-size: 30px;
 	width: 280px;
 }
 
-.link{
+.link {
 	width: 80px;
 }
 
 
 
 
-.section{
+/* main content display area */
+.wrapper {
+	margin-top: 80px;
+}
+
+.section {
 	width: 100%;
 	height: 45vmax;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 }
 
-@media (max-width: 750px) {
-	.navbar{
+@media (max-width: 1200px) {
+	.navbar {
 		height: 160px;
 	}
-	
-	.navlinks{
+
+	.navlinks {
 		width: 100%;
 		text-align: center;
 	}
-	
-	.wrapper{
+
+	.wrapper {
 		margin-top: 160px;
 	}
 }
 
-.content{
-	width: 46%;
+.content {
+	width: 45%;
 	height: 90%;
 }
 
-.title{
+.title {
 	font-size: 10vw;
 	font-family: futura;
 	font-weight: bolder;
@@ -87,43 +89,143 @@
 	margin-top: 8vmin;
 }
 
-.decription{
+.decription {
 	font-size: 18px;
 	font-family: helvetica;
 	font-weight: bold;
 	max-width: 550px;
 }
 
-.fullsize-img{
-	width: 100%;
-}
-
-.project-thumbnail{
+.project-thumbnail {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
 
-.project-link{
+.project-link {
 	width: 33%;
 }
 
-.project-img{
+.project-img {
 	width: 100%;
 }
 
+.fullsize-img {
+	width: 100%;
+}
 
-
-.align-right{
+.align-right {
 	text-align: right;
 	float: right;
 }
 
-.fullsize-content{
+
+
+
+
+/* skills section */
+.progress {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 50%;
+}
+
+.right-progress,
+.left-progress {
+	width: 50%;
+}
+
+.left-progress span,
+.right-progress span {
+	margin-left: 5%;
+}
+
+.progress-bar {
+	width: 90%;
+	border-radius: 8px;
+	height: 2vmin;
+	margin-bottom: 3vmin;
+	margin-top: 1vmin;
+	background-color: #cfd3d3;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.progress-bar div {
+	border-radius: 8px;
+	height: inherit;
+}
+
+.lang-name {
+	font-size: 2vw;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+#progress-1, #progress-4 {
+	background:
+		repeating-linear-gradient(-40deg, #5cb85c 0px, #5cb85c 10px, #449d44 10px, #449d44 20px);
+}
+
+#progress-2, #progress-5 {
+	background:
+		repeating-linear-gradient(-40deg, #5bc0de 0px, #5bc0de 10px, #31b0d5 10px, #31b0d5 20px);
+}
+
+#progress-3, #progress-6 {
+	background:
+		repeating-linear-gradient(-40deg, #f0ad4e 0px, #f0ad4e 10px, #ec971f 10px, #ec971f 20px);
+}
+
+#progress-1{
+	width: 60%;
+}
+
+#progress-2{
+	width: 90%;
+}
+
+#progress-3{
+	width: 70%;
+}
+
+#progress-4 {
+	width: 55%;
+}
+
+#progress-5 {
+	width: 90%;
+}
+
+#progress-6 {
+	width: 75%;
+}
+
+@media (max-width: 1200px) {
+	.progress {
+		display: block;
+		margin-top: 0;
+	}
+
+	.left-progress,
+	.right-progress {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+
+
+
+/* contact section */
+.fullsize-content {
 	width: 92%;
 }
 
-.contact-btn{
+.contact-btn {
 	position: absolute;
 	margin-top: 100px;
 	height: 70px;
@@ -138,7 +240,7 @@
 	border: 2px solid #545454;
 }
 
-.contact-btn:hover{
+.contact-btn:hover {
 	background-color: #545454;
 	color: #FFFFFF;
 	transition: 1s;
