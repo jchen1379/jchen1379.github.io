@@ -40,6 +40,25 @@
 	width: 80px;
 }
 
+@media (max-width: 1200px) {
+	.navbar {
+		height: 120px;
+	}
+	
+	.navbar a{
+		height: 50px;
+		line-height: 50px;
+	}
+
+	.navlinks {
+		width: 100%;
+		text-align: center;
+	}
+
+	.wrapper {
+		margin-top: 160px;
+	}
+}
 
 
 
@@ -54,21 +73,6 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-}
-
-@media (max-width: 1200px) {
-	.navbar {
-		height: 160px;
-	}
-
-	.navlinks {
-		width: 100%;
-		text-align: center;
-	}
-
-	.wrapper {
-		margin-top: 160px;
-	}
 }
 
 .content {
@@ -179,7 +183,7 @@
 .lang-name {
 	font-size: 2vw;
 	font-weight: bold;
-	font-family: helvetica;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #progress-1, #progress-4 {
