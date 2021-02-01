@@ -54,12 +54,12 @@ function checkNumRange(value) {
 function giveHint(value) {
 	score--;
 	document.getElementById("score").innerText = score;
-	if (score == 0) {
-		gameOver();
-	} else {
+	//if (score == 0) {
+		//gameOver();
+	//} else {
 		value > answer ? showHint(tooHighIcon, tooHighMsg) : showHint(tooLowIcon, tooLowMsg);
 		value > answer ? addHistory(value, tooHighIcon) : addHistory(value, tooLowIcon);
-	}
+	//}
 }
 
 
