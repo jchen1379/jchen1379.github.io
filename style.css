@@ -103,19 +103,19 @@
 }
 
 .background-1{
-	background-image: url(Pictures/about-page-pic2.jpg);
+	background-image: url(Pictures/about-section.jpg);
 }
 
 .background-2{
-	background-image: url(Pictures/about-page-pic4.jpg);
+	background-image: url(Pictures/project-section.jpg);
 }
 
 .background-3{
-	background-image: url(Pictures/about-page-pic3.jpg);
+	background-image: url(Pictures/skills-section.jpg);
 }
 
 .background-4{
-	background-image: url(Pictures/project-page-pic1.jpg);
+	background-image: url(Pictures/contact-section.jpg);
 }
 
 .decription {
