@@ -118,11 +118,11 @@
 	background-image: url(Pictures/contact-section.jpg);
 }
 
-.decription {
-	font-size: 18px;
+.description {
+	font-size: 20px;
 	font-family: helvetica;
 	font-weight: bold;
-	line-height: 24px;
+	line-height: 26px;
 	max-width: 550px;
 }
 
@@ -169,6 +169,33 @@
 }
 
 
+@media (max-width: 1200px) {
+	.description{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	
+	.section{
+		height: 40vmax;
+	}
+}
+
+@media (max-width: 800px) {
+	.description{
+		font-size: 10px;
+		line-height: 16px;
+	}
+	
+	.section{
+		height: 35vmax;
+	}
+}
+
+@media (max-width: 600px){
+	.section{
+		height: 25vmax;
+	}
+}
 
 
 
