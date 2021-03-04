@@ -176,7 +176,7 @@
 	}
 	
 	.section{
-		height: 40vmax;
+		height: 45vmax;
 	}
 }
 
@@ -187,13 +187,13 @@
 	}
 	
 	.section{
-		height: 35vmax;
+		height: 38vmax;
 	}
 }
 
 @media (max-width: 600px){
 	.section{
-		height: 25vmax;
+		height: 30vmax;
 	}
 }
 
