@@ -310,7 +310,6 @@
 	line-height: 70px;
 	border-radius: 8px;
 	border: 2px solid #545454;
-	transition: 1.5s;
 }
 
 .contact-btn:hover {
@@ -324,17 +323,33 @@
 	width: 350px;
 	display: flex;
 	justify-content: space-between;
-	margin-top: 120px;
+	margin-top: 150px;
 }
 
 .social-icon img{
-	width: 70px;
-	transition: 1s;
+	width: 100%;
 }
 
 .social-icon img:hover{
 	opacity: 0.6;
-	transition: 1s;
+}
+
+.social-icon a{
+	width: 20%;
+}
+
+@media (max-width: 1200px) {
+	.contact-btn{
+		width: 40vmin;
+		height: 8vmin;
+		line-height: 8vmin;
+		font-size: 2.2vmin;
+	}
+	
+	.social-icon{
+		margin-top: 15vmin;
+		width: 40vmin;
+	}
 }
 
 
