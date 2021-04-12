@@ -310,6 +310,7 @@
 	line-height: 70px;
 	border-radius: 8px;
 	border: 2px solid #545454;
+	transition: 0.8s;
 }
 
 .contact-btn:hover {
@@ -328,10 +329,12 @@
 
 .social-icon img{
 	width: 100%;
+	transition: 0.6s;
 }
 
 .social-icon img:hover{
 	opacity: 0.6;
+	transition: 0.6s;
 }
 
 .social-icon a{
@@ -351,6 +354,8 @@
 		width: 40vmin;
 	}
 }
+
+
 
 
 /* footer */
